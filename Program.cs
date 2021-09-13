@@ -10,7 +10,7 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("New text");
+            Console.WriteLine("Really new text" + (new Random()).Next(0,10));
             Console.ReadKey();
         }
     }
