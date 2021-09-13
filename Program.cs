@@ -11,6 +11,7 @@ namespace Lab1
         static void Main(string[] args)
         {
             Console.WriteLine("Really new text" + (new Random()).Next(0,10));
+            Console.WriteLine("Develop branch");
             Console.ReadKey();
         }
     }
